@@ -1,0 +1,13 @@
+.Restaurant__card__img {
+  width: 4px;
+  height: 50px;
+  background-color: red;
+  font-size: 5px;
+}
+
+.Restaurant__card__link {
+  border: solid red;
+}
+.Restaurant__card__link__name {
+  font-weight: bold;
+}/*# sourceMappingURL=Styles.css.map */

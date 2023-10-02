@@ -1,0 +1,30 @@
+
+$welcome:red;
+
+@mixin wh ($width, $height){
+    width: $width;
+    height:$height;
+    background-color: $welcome;
+}
+
+@function papa ($a,$b){
+   $c: $a+$b;
+   @return $c;
+}
+
+.Restaurant__card__img{
+
+  @include wh (4px, 50px);
+
+ font-size: papa(3px,2px);
+    // width:20px;
+}
+.Restaurant__card{
+    &__link{
+        border:solid red;
+
+        &__name{
+            font-weight: bold;
+        }
+    }
+}
