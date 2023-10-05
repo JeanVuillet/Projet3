@@ -1,0 +1,31 @@
+
+
+
+.Restaurant__card__link{
+display:flex;
+flex-direction: column;
+background-color:white;
+
+    &__img{
+        width:340px;
+        height:auto;
+
+          }
+ 
+  &__text{
+    display:flex;
+    width: 100%;
+            &__like:active{
+ pointer-events: none;
+            }
+  }
+
+}
+
+
+
+
+
+.Menu{
+
+}
