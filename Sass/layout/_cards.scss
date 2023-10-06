@@ -1,31 +1,36 @@
+.Restaurant__card  {
 
 
+    &__link {
+     
+      text-decoration: none;
+      color:black;
+      cursor:pointer;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
 
-.Restaurant__card__link{
-display:flex;
-flex-direction: column;
-background-color:white;
 
-    &__img{
-        width:340px;
-        height:auto;
+      &__img {
+        width: 340px;
+        height: auto;
+      }
 
-          }
- 
-  &__text{
-    display:flex;
-    width: 100%;
-            &__like:active{
- pointer-events: none;
-            }
+      &__text {
+        display: flex;
+        width: 100%;
+        &__like:active {
+          pointer-events: none;
+        }
+      }
+      &__like{
+        pointer-events: none;
+      // position relavie ablsolut
+
+      }
+    }
   }
 
-}
 
-
-
-
-
-.Menu{
-
+.Menu {
 }

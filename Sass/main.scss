@@ -5,4 +5,17 @@
 @import "./base/resets";
 @import"./components/buttons.scss";
 
+@import "./layout/headerHomepage";
+@import "./layout/headerRestaurant";
 @import "./layout/cards";
+@import"./layout/fonctionnement.scss";
+@import"./layout/reservez.scss";
+
+@import"./pages/homepage.scss";
+@import"./pages/restaurants.scss";
+
+
+
+main{
+   
+}

@@ -1,0 +1,30 @@
+//header__Restaurants :layout
+
+
+
+.RestoImage{
+    width: 375px;
+    height: 275px;
+}
+
+.Name{
+
+    //Menu__link:layout
+}
+
+.Course{
+//Course *3(Entree, Plat, Dessert)
+    &__title{
+
+    }
+    &__plates{
+        // *3 ou*4  _plates__link  in layouts
+    }
+
+}
+.Commander__button{
+    //in components
+}
+.Footer{
+    //in layouts
+}
