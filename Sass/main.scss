@@ -1,21 +1,25 @@
-@import "./utils/variables";
-@import "./utils/mixines";
 
-@import "./base/typography";
-@import "./base/resets";
-@import"./components/buttons.scss";
 
-@import "./layout/headerHomepage";
-@import "./layout/headerRestaurant";
-@import "./layout/cards";
-@import"./layout/fonctionnement.scss";
-@import"./layout/reservez.scss";
+@import "utils/variables.scss";
+@import "utils/mixines.scss";
 
-@import"./pages/homepage.scss";
-@import"./pages/restaurants.scss";
+@import "base/typography.scss";
+@import "base/resets.scss";
+
+@import"components/buttons.scss";
+
+@import "layout/headerHomepage.scss";
+@import "layout/headerRestaurant.scss";
+@import "layout/cards.scss";
 
 
 
-main{
-   
+
+@import"pages/homepage.scss";
+
+
+
+
+head{
+    COLOR:yellow;
 }

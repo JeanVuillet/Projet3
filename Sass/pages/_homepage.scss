@@ -10,22 +10,38 @@
 }
 
 .Reservez{
+    margin:2rem 0rem 3rem 0rem;
+    text-align: center;
+   
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+   
     
         &__title{
-            padding: 0rem 2rem 0rem 2rem;
+        
+            margin:0rem;
+            padding: 0rem 4rem 0rem 4rem;
+            justify-self:center;
+        
            
         }
         &__p{
-            padding: 0rem 1rem 0rem 1rem;
+            padding: 0rem 2rem 0rem 2rem;
+            color: #353535;
+            font-weight: 10;
+        }
+        &__button{
+            
+            margin:1rem 0rem 0rem 0rem;
+            background:linear-gradient(-10deg, #9356dc, #ff79da);
         }
     
-    }
+}
 
-    .Fonctionnement{
+    .Fonctionnement {
+        
         background-color: white;
         display:flex;
         flex-direction: column;
@@ -43,35 +59,53 @@
           
     
             &__card{
+                box-shadow: 0px  5px 5px  #888888;
+
+                width:322.5px;
+                height:72px;
                 background-color: #F6F6F6;
-                height: 85.19px;
+      
                 display:flex;
                 gap:1rem;
                 padding-right: 2rem;
                 justify-content: flex-start;
                 align-items: center;
-                border-radius:2rem;
-    
+                border-radius:  1rem;
+
                 font-size: medium;
                 font-weight: 500;
                 color: #1f1f1f;
     
                 &__number{
-                    border:solid violet;
-                    background-color:violet;
+                    position: relative;
+                    left:-10px;
+                    color:white;
+                    background-color:#9356DC;
                     border-radius: 50%;
-                    width: 1rem;
+                    width: 1.5rem;
+                    height:1.5rem;
                     display:flex;
                     justify-content: center;
+                    align-items: center;
                 }
+                &__icon{
+                    color:#7E7E7E;
     
+                }
+                .fa-store{
+             
+                    color:#9356DC;
+                }
             }
+        
         }
+       
+    
     }
-
-    .Restaurants{
+    .Restaurant{
         width: 90%;
-        padding-left: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         display: flex;
         flex-direction: column;
 
