@@ -48,6 +48,9 @@ h1 {
   align-items: center;
 }
 
+.Restaurant__card {
+  margin-bottom: 2rem;
+}
 .Restaurant__card__link {
   position: relative;
   display: block;
@@ -76,6 +79,7 @@ h1 {
 .Restaurant__card__link__img {
   border-radius: 1rem 1rem 0rem;
   width: 340px;
+  height: 226.69px !important;
   height: auto;
 }
 .Restaurant__card__link__text {
