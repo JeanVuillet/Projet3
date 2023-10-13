@@ -59,6 +59,7 @@ h1 {
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
+  width: 340px;
 }
 .Restaurant__card__link__nouveau {
   position: absolute;
@@ -80,6 +81,7 @@ h1 {
 .Restaurant__card__link__text {
   padding-left: 1rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   gap: 1rem;
   width: 100%;
@@ -92,11 +94,61 @@ h1 {
 .Restaurant__card__link__text__info > * {
   margin: 0rem;
 }
-.Restaurant__card__link__text__like:active {
-  pointer-events: none;
+.Restaurant__card__link__text__like {
+  height: 0.001rem;
+  width: 0.001rem;
+  position: relative;
 }
-.Restaurant__card__link__like {
-  pointer-events: none;
+.Restaurant__card__link__text__like .fa-heart {
+  position: absolute;
+  bottom: 2rem;
+  left: 18rem;
+}
+.Restaurant__card__link__text__like .fa-solid {
+  position: absolute;
+  bottom: 2rem;
+  left: 18rem;
+  color: white;
+}
+@keyframes visible {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1);
+  }
+}
+.Restaurant__card__link__text__like:active .fa-solid, .Restaurant__card__link__text__like :focus .fa-solid, .Restaurant__card__link__text__like :hover .fa-solid {
+  animation: visible 1s;
+  transform-origin: bottom;
+  color: #9356dc;
+}
+
+.Footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: #353535;
+  color: white;
+}
+.Footer__title {
+  margin-block-start: 0rem;
+  color: white;
+  font-family: "Shrikhand";
+  font-size: 22px;
+  text-align: justify;
+}
+.Footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.Footer__content > p {
+  margin-block: 0rem;
+}
+.Footer .fa-solid {
+  padding-right: 1rem;
 }
 
 .Localisation {
