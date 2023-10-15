@@ -1,7 +1,11 @@
 .Restaurant__card  {
    margin-bottom: 2rem;
+   width:100%;
 
     &__link {
+
+
+     width: 100%;
       position:relative;
      display:block;
       text-decoration: none;
@@ -13,7 +17,7 @@
       border-radius: 1rem;
       justify-content: center;
       align-items: center;
-      width:340px;
+  
     
 
 
@@ -33,10 +37,10 @@
       }
 
       &__img {
-        border-radius:1rem 1rem 0rem ;
-        width: 340px;
-        height: 226.69px!important;
-        height: auto;
+        border-radius:1rem 1rem 0rem 0rem;
+        width: 100%;
+        height: 226.69px;
+        object-fit:cover;
       }
 
       &__text {
@@ -68,6 +72,7 @@
             position: absolute;
             bottom:2rem;
             left:18rem;
+            font-size: x-large;
            
 
           
@@ -78,6 +83,7 @@
             left:18rem;
          
             color:white;
+    
           }
 
     
@@ -98,11 +104,12 @@
               animation: visible 1s;
            
              
-        
-              transform-origin: bottom;
-   
+              font-size: x-large;
 
-               color: #9356dc
+              transform-origin: bottom;
+               background: -webkit-linear-gradient($heart);
+               background-clip: text;
+               -webkit-text-fill-color: transparent;
         
             }
        
