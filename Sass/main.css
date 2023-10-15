@@ -68,11 +68,11 @@ h1 {
   align-items: center;
 }
 
-.Restaurant__card {
+.Restaurant__cards__card {
   margin-bottom: 2rem;
   width: 100%;
 }
-.Restaurant__card__link {
+.Restaurant__cards__card__link {
   width: 100%;
   position: relative;
   display: block;
@@ -85,7 +85,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.Restaurant__card__link__nouveau {
+.Restaurant__cards__card__link__nouveau {
   position: absolute;
   left: 16rem;
   top: 1rem;
@@ -97,14 +97,14 @@ h1 {
   z-index: 6;
   text-align: center;
 }
-.Restaurant__card__link__img {
+.Restaurant__cards__card__link__img {
   border-radius: 1rem 1rem 0rem 0rem;
   width: 100%;
   height: 226.69px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.Restaurant__card__link__text {
+.Restaurant__cards__card__link__text {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -112,26 +112,26 @@ h1 {
   gap: 1rem;
   width: 100%;
 }
-.Restaurant__card__link__text__info {
+.Restaurant__cards__card__link__text__info {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.Restaurant__card__link__text__info > * {
+.Restaurant__cards__card__link__text__info > * {
   margin: 0rem;
 }
-.Restaurant__card__link__text__like {
+.Restaurant__cards__card__link__text__like {
   height: 0.001rem;
   width: 0.001rem;
   position: relative;
 }
-.Restaurant__card__link__text__like .fa-heart {
+.Restaurant__cards__card__link__text__like .fa-heart {
   position: absolute;
   bottom: 2rem;
   left: 18rem;
   font-size: x-large;
 }
-.Restaurant__card__link__text__like .fa-solid {
+.Restaurant__cards__card__link__text__like .fa-solid {
   position: absolute;
   bottom: 2rem;
   left: 18rem;
@@ -145,7 +145,7 @@ h1 {
     transform: scale(1);
   }
 }
-.Restaurant__card__link__text__like:active .fa-solid, .Restaurant__card__link__text__like :focus .fa-solid, .Restaurant__card__link__text__like :hover .fa-solid {
+.Restaurant__cards__card__link__text__like:active .fa-solid, .Restaurant__cards__card__link__text__like :focus .fa-solid, .Restaurant__cards__card__link__text__like :hover .fa-solid {
   animation: visible 1s;
   font-size: x-large;
   transform-origin: bottom;
@@ -155,6 +155,17 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 450px) {
+  .Restaurant__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Restaurant__cards__card {
+    width: 40%;
+    margin: 2rem;
+  }
+}
 .Footer {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -263,6 +274,20 @@ h1 {
   flex-direction: column;
 }
 
+@media (min-width: 450px) {
+  .Fonctionnement {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .Fonctionnement__cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Restaurant {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
 head {
   COLOR: yellow;
 }/*# sourceMappingURL=main.css.map */

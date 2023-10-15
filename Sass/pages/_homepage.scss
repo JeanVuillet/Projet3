@@ -114,3 +114,28 @@
 .Footer{
     //Footer: layouts
 }
+
+@media (min-width:450px )  {
+  
+
+    .Fonctionnement{
+        padding-left:5rem;
+        padding-right: 5rem;
+        
+        &__cards{
+            flex-direction: row;
+            justify-content: center;
+
+        }
+    }
+
+    .Restaurant{
+        padding-left:5rem;
+        padding-right: 5rem;
+
+        &__cards{
+            //layouts
+        }
+    }
+    
+}

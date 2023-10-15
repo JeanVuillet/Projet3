@@ -1,4 +1,7 @@
-.Restaurant__card  {
+.Restaurant__cards  {
+
+
+  &__card{
    margin-bottom: 2rem;
    width:100%;
 
@@ -123,12 +126,24 @@
     }
    
 
+  }
 }
     
-   a{
 
-  
-   } 
+   @media (min-width: 450px){
+
+    .Restaurant__cards  {
+
+     
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+   &__card{
+    width: 40%;
+    margin:2rem;
+   }
+
+    }
    
 
-
+   }
