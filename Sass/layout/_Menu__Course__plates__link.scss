@@ -1,0 +1,41 @@
+
+.Menu__Course__plates__link{
+   display: flex;
+
+    margin-bottom: 1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+
+
+    &__card{
+        display: flex;
+       justify-content: space-between;
+       width: 100%;
+       background-color: white;
+    border-radius: 1rem;
+        &__plate{
+            padding-left: 1rem;
+            &__name{
+
+            }
+            &__detail{
+                
+            }
+  
+
+        }
+        &__price{
+            display: flex;
+            flex-direction: column;
+         
+            justify-content: flex-end;
+            padding-right:1rem;
+            &__p{
+
+            }
+        }
+    
+    }
+
+
+}

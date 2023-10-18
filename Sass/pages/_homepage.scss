@@ -10,7 +10,9 @@
 }
 
 .Reservez{
-    margin:2rem 0rem 3rem 0rem;
+    background-color:$backgroundColor;
+    padding:2rem 0rem 2rem 0rem;
+   
     text-align: center;
    
     display: flex;
@@ -102,9 +104,8 @@
     
     }
     .Restaurant{
-      
-        margin-left: 1rem;
-        margin-right: 1rem;
+      background-color: $backgroundColor;
+   
         display: flex;
         flex-direction: column;
 
