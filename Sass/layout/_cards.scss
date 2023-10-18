@@ -54,18 +54,85 @@
         margin:0rem;
                  }
         
-        &__like:active {
-          pointer-events: none;
-        }
-      }
-      &__like{
-        pointer-events: none;
-      // position relavie ablsolut
+        &__like{
+          height:0.001rem;
+          width: 0.001rem;
+          position :relative;
+ 
 
-      }
+
+            .fa-heart{
+              position: absolute;
+              bottom:2rem;
+              left:18rem;
+              font-size: x-large;
+            
+
+            
+            }
+            .fa-solid{
+              position: absolute;
+              bottom:2rem;
+              left:18rem;
+          
+              color:white;
+      
+            }
+        
+      
+      
+            @keyframes visible {
+
+              0%{ transform: scale(0) ;
+              }
+          
+              80%{ transform: scale(1) ;}
+            }
+         
+          &:hover,:active,:focus{
+              
+
+              .fa-solid {
+      
+                 animation: visible 1s;
+                 font-size: x-large;
+
+                transform-origin: bottom;
+           
+              
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background:-webkit-linear-gradient(135deg, #e66465, #9198e5);
+              }
+        
+            
+          }
+        
+          
+        } 
+    
+      } 
     }
+   
+
   }
 
 
-.Menu {
-}
+
+   @media (min-width: 450px){
+
+    .Restaurant__cards  {
+
+     
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+   &__card{
+    width: 40%;
+    margin:2rem;
+   }
+
+    }
+   
+
+   }

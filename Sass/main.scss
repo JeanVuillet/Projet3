@@ -11,14 +11,19 @@
 @import "layout/headerHomepage.scss";
 @import "layout/headerRestaurant.scss";
 @import "layout/cards.scss";
+<<<<<<< Updated upstream
 
 
+=======
+@import "layout/Footer";
+@import "layout/Menu__Course__plates__link.scss";
+>>>>>>> Stashed changes
 
 
 @import"pages/homepage.scss";
 
 
-
+@import"pages/restaurants.scss";
 
 head{
     COLOR:yellow;
