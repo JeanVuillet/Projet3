@@ -182,7 +182,7 @@ h1 {
   background: orange;
   -webkit-background-clip: text;
           background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: blue;
 }
 
 @media (min-width: 450px) {
