@@ -104,22 +104,20 @@
             
 
                   .fa-solid{
- 
-                      background: -webkit-linear-gradient(#eee, #333);
+
+         
+      
+                
+     
+                      animation: visible 1s;
+                      font-size: x-large;
+                      transform-origin: bottom;
+
+                      background: -webkit-linear-gradient(135deg #9356DC    #FF79DA);
+
                       background-clip: text;
                       -webkit-text-fill-color: transparent;
-                    
 
-                //     animation: visible 1s;
-                
-                  
-                //     font-size: x-large;
-
-                //     transform-origin: bottom;
-                //     background: orange;
-                // //  background: -webkit-linear-gradient($heart);
-                //     background-clip: text;
-                //     -webkit-text-fill-color: transparent;
               
                   }
             

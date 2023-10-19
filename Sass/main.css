@@ -176,7 +176,10 @@ h1 {
   }
 }
 .Restaurant__cards__card__link__text__like:active .fa-solid, .Restaurant__cards__card__link__text__like :focus .fa-solid, .Restaurant__cards__card__link__text__like :hover .fa-solid {
-  background: -webkit-linear-gradient(#eee, #333);
+  animation: visible 1s;
+  font-size: x-large;
+  transform-origin: bottom;
+  background: -webkit-linear-gradient(135deg #9356DC #FF79DA);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
