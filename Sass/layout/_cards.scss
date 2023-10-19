@@ -76,6 +76,7 @@
             bottom:2rem;
             left:18rem;
             font-size: x-large;
+        
            
 
           
@@ -99,25 +100,26 @@
             80%{ transform: scale(1) ;}
            }
         
-        &:active,:focus,:hover{
-       
+              &:active,:focus,:hover{
+            
 
-            .fa-solid{
+                  .fa-solid{
 
-              animation: visible 1s;
-           
-             
-              font-size: x-large;
+                    animation: visible 1s;
+                
+                  
+                    font-size: x-large;
 
-              transform-origin: bottom;
-               background: -webkit-linear-gradient($heart);
-               background-clip: text;
-               -webkit-text-fill-color: transparent;
-        
-            }
-       
-          
-        }
+                    transform-origin: bottom;
+                    background: orange;
+                    //  background: -webkit-linear-gradient($heart);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+              
+                  }
+            
+                
+              }
         
           
         } 

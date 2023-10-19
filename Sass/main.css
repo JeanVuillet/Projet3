@@ -175,14 +175,14 @@ h1 {
     transform: scale(1);
   }
 }
-.Restaurant__cards__card__link__text__like:hover .fa-solid, .Restaurant__cards__card__link__text__like :active .fa-solid, .Restaurant__cards__card__link__text__like :focus .fa-solid {
+.Restaurant__cards__card__link__text__like:active .fa-solid, .Restaurant__cards__card__link__text__like :focus .fa-solid, .Restaurant__cards__card__link__text__like :hover .fa-solid {
   animation: visible 1s;
   font-size: x-large;
   transform-origin: bottom;
+  background: orange;
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(135deg, #e66465, #9198e5);
 }
 
 @media (min-width: 450px) {
@@ -196,6 +196,33 @@ h1 {
     margin: 2rem;
   }
 }
+.Footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: #353535;
+  color: white;
+}
+.Footer__title {
+  margin-block-start: 0rem;
+  color: white;
+  font-family: "Shrikhand";
+  font-size: 22px;
+  text-align: justify;
+}
+.Footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.Footer__content > p {
+  margin-block: 0rem;
+}
+.Footer .fa-solid {
+  padding-right: 1rem;
+}
+
 .Footer {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -403,24 +430,6 @@ h1 {
   z-index: 5;
 }
 
-.Commander {
-  z-index: 5;
-}
-
-@media (min-width: 450px) {
-  .Fonctionnement {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-  .Fonctionnement__cards {
-    flex-direction: row;
-    justify-content: center;
-  }
-  .Restaurant {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-}
 head {
-  COLOR: yellow;
+  color: green;
 }/*# sourceMappingURL=main.css.map */
