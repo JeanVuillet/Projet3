@@ -100,7 +100,7 @@
             80%{ transform: scale(1) ;}
            }
         
-              &:active,:focus,:hover{
+              &:hover{
             
 
                   .fa-solid{
@@ -154,3 +154,6 @@
    }
 
            
+   .Restaurant__card__link__text__like:hover .fa-solid{
+    color:orange;
+   }

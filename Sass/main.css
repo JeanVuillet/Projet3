@@ -175,7 +175,7 @@ h1 {
     transform: scale(1);
   }
 }
-.Restaurant__cards__card__link__text__like:active .fa-solid, .Restaurant__cards__card__link__text__like :focus .fa-solid, .Restaurant__cards__card__link__text__like :hover .fa-solid {
+.Restaurant__cards__card__link__text__like:hover .fa-solid {
   animation: visible 1s;
   font-size: x-large;
   transform-origin: bottom;
@@ -196,6 +196,10 @@ h1 {
     margin: 2rem;
   }
 }
+.Restaurant__card__link__text__like:hover .fa-solid {
+  color: orange;
+}
+
 .Footer {
   margin-top: 2rem;
   padding-top: 2rem;
