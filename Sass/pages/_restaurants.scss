@@ -46,7 +46,12 @@ background-color: $backgroundColor;
     right:2rem;
     font-size: x-large;
 }
+.fa-solid{
+    background: -webkit-linear-gradient(135deg #9356DC    #FF79DA);
 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .Menu{
     height:20%;
 
