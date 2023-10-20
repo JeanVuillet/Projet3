@@ -175,6 +175,19 @@ h1 {
   position: absolute;
   bottom: 2rem;
   left: 18rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.Restaurant__cards__card__link__text__like .fa-solid :hover {
+  display: inline-block;
+  animation: visible 1s;
+  font-size: x-large;
+  transform-origin: bottom;
+  background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @keyframes visible {
   0% {
@@ -183,12 +196,6 @@ h1 {
   80% {
     transform: scale(1);
   }
-}
-.Restaurant__cards__card__link__text__like:hover .fa-solid .fa-heart {
-  background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 450px) {
@@ -202,23 +209,6 @@ h1 {
     margin: 2rem;
   }
 }
-.fa-solid .fa-heart :hover {
-  animation: visible 1s;
-  font-size: x-large;
-  transform-origin: bottom;
-  background: -webkit-linear-gradient(135deg #9356DC #FF79DA);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-footer:hover {
-  background-color: orange;
-}
-footer:hover .Footer__content {
-  color: pink;
-}
-
 .Footer {
   margin-top: 2rem;
   padding-top: 2rem;

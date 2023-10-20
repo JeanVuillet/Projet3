@@ -90,11 +90,27 @@
             bottom:2rem;
             left:18rem;
          
-          
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
           
           }
+          .fa-solid :hover{
+  
+          display:inline-block;
 
-    
+   
+            animation: visible 1s;
+           font-size: x-large;
+           transform-origin: bottom;
+          
+          background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          }
+
+       
     
           @keyframes visible {
 
@@ -104,32 +120,6 @@
             80%{ transform: scale(1) ;}
            }
         
-              &:hover{
-            
-
-                  .fa-solid .fa-heart{
-
-                    background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                    -webkit-text-fill-color: transparent;
-      
-                
-     
-                      // animation: visible 1s;
-                      // font-size: x-large;
-                      // transform-origin: bottom;
-
-                      // background: -webkit-linear-gradient(135deg #9356DC    #FF79DA);
-                      // -webkit-background-clip: text;
-                      // background-clip: text;
-                      // -webkit-text-fill-color: transparent;
-
-              
-                  }
-            
-                
-              }
         
           
         } 
@@ -140,7 +130,8 @@
 
   }
 }
-    
+
+
 
    @media (min-width: 450px){
 
@@ -161,26 +152,6 @@
    }
 
            
-  
-   .fa-solid .fa-heart :hover{
-    animation: visible 1s;
-           
-             
-    font-size: x-large;
 
-    transform-origin: bottom;
-     background: -webkit-linear-gradient($heart);
-     background-clip: text;
-     -webkit-text-fill-color: transparent;
-   }
 
-   footer:hover{
-   
-    background-color:orange;
-
-.Footer__content{
-  color:pink;
-}
-   
-  
-   }
+ 
