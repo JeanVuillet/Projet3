@@ -81,13 +81,17 @@
 
           
           }
+          .fa-regular{
+            -webkit-text-fill-color: black;
+
+          }
           .fa-solid{
             position: absolute;
             bottom:2rem;
             left:18rem;
          
-            color:white;
-    
+          
+          
           }
 
     
@@ -103,20 +107,23 @@
               &:hover{
             
 
-                  .fa-solid{
+                  .fa-solid .fa-heart{
 
-         
+                    background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
       
                 
      
-                      animation: visible 1s;
-                      font-size: x-large;
-                      transform-origin: bottom;
+                      // animation: visible 1s;
+                      // font-size: x-large;
+                      // transform-origin: bottom;
 
-                      background: -webkit-linear-gradient(135deg #9356DC    #FF79DA);
-
-                      background-clip: text;
-                      -webkit-text-fill-color: transparent;
+                      // background: -webkit-linear-gradient(135deg #9356DC    #FF79DA);
+                      // -webkit-background-clip: text;
+                      // background-clip: text;
+                      // -webkit-text-fill-color: transparent;
 
               
                   }

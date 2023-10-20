@@ -21,6 +21,10 @@
 
 @import"pages/restaurants.scss";
 
-head{
+.coucou{
+
     color:pink;
+     .fa-location-dot{
+    -webkit-text-fill-color:orange;
+ }
 }
