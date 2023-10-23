@@ -17,3 +17,37 @@
 .CommanderButton{
   @include MButton;
 }
+
+
+@keyframes visible {
+  0% {
+  transform: scale(0);
+  }
+  80% {
+  transform: scale(1);
+     }
+}
+ .custom-checkbox input[type="checkbox"],
+     .custom-checkbox .checked {
+     animation: visible 1s;
+     display: none;
+     color:red;
+   
+
+transform-origin: bottom;
+
+background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+
+ .custom-checkbox input[type="checkbox"]:checked ~ .checked
+ {
+     display: inline-block;
+ }
+
+ .custom-checkbox input[type="checkbox"]:checked ~ .unchecked
+ {
+     display: none;
+ }
