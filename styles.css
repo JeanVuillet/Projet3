@@ -1,16 +1,17 @@
 input[type=checkbox] {
   background-color: red;
   position: absolute;
-  width: 3px;
-  height: 3px;
+  width: 30px;
+  height: 30px;
 }
 
 .div {
   background-color: BLUE;
-  width: 10px;
-  height: 10px;
+  width: 150px;
+  height: 150px;
   position: relative;
-}/*# sourceMappingURL=styles.css.map */
-boddy{
-  background-color: red;
 }
+
+body {
+  background-color: orange;
+}/*# sourceMappingURL=styles.css.map */
