@@ -18,10 +18,7 @@
   @include MButton;
 }
 
-.heart{
 
-  @include heart;
-}
 
 
 @keyframes visible {
@@ -32,8 +29,8 @@
   transform: scale(1);
      }
 }
- .custom-checkbox input[type="checkbox"],
-     .custom-checkbox .checked {
+ .Restaurant__cards__card__link__text__like input[type="checkbox"],
+     .Restaurant__cards__card__link__text__like .checked {
      animation: visible 1s;
      display: none;
      color:red;
@@ -47,12 +44,12 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
  }
 
- .custom-checkbox input[type="checkbox"]:checked ~ .checked
+ .Restaurant__cards__card__link__text__like input[type="checkbox"]:checked ~ .checked
  {
      display: inline-block;
  }
 
- .custom-checkbox input[type="checkbox"]:checked ~ .unchecked
+ .Restaurant__cards__card__link__text__like input[type="checkbox"]:checked ~ .unchecked
  {
      display: none;
  }
