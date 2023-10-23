@@ -157,38 +157,6 @@ h1 {
 .Restaurant__cards__card__link__text__info > * {
   margin: 0rem;
 }
-.Restaurant__cards__card__link__text__like {
-  height: 0.001rem;
-  width: 0.001rem;
-  position: relative;
-}
-.Restaurant__cards__card__link__text__like .fa-heart {
-  position: absolute;
-  bottom: 2rem;
-  left: 18rem;
-  font-size: x-large;
-}
-.Restaurant__cards__card__link__text__like .fa-regular {
-  -webkit-text-fill-color: black;
-}
-.Restaurant__cards__card__link__text__like .fa-solid {
-  position: absolute;
-  bottom: 2rem;
-  left: 18rem;
-
-}
-.Restaurant__cards__card__link__text__like .fa-solid :hover {
-
-
-}
-@keyframes visible {
-  0% {
-    transform: scale(0);
-  }
-  80% {
-    transform: scale(1);
-  }
-}
 
 @media (min-width: 450px) {
   .Restaurant__cards {

@@ -65,64 +65,7 @@
         margin:0rem;
                 }
         
-        &__like{
-          height:0.001rem;
-          width: 0.001rem;
-          position :relative;
-
-
-          .fa-heart{
-            position: absolute;
-            bottom:2rem;
-            left:18rem;
-            font-size: x-large;
-        
-           
-
-          
-          }
-          .fa-regular{
-            -webkit-text-fill-color: black;
-
-          }
-          .fa-solid{
-            position: absolute;
-            bottom:2rem;
-            left:18rem;
-         
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-          
-          }
-          .fa-solid :hover{
-  
-          display:inline-block;
-
    
-            animation: visible 1s;
-           font-size: x-large;
-           transform-origin: bottom;
-          
-          background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          }
-
-       
-    
-          @keyframes visible {
-
-            0%{ transform: scale(0) ;
-             }
-         
-            80%{ transform: scale(1) ;}
-           }
-        
-        
-          
-        } 
     
       } 
     }
