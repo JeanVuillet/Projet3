@@ -18,6 +18,11 @@
   @include MButton;
 }
 
+.heart{
+
+  @include heart;
+}
+
 
 @keyframes visible {
   0% {
