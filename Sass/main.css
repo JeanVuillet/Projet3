@@ -152,7 +152,7 @@ h1 {
 }
 .Restaurant__cards__card__link__nouveau {
   position: absolute;
-  left: 16rem;
+  right: 1rem;
   top: 1rem;
   background-color: #99E2D0;
   color: #008766;
@@ -176,7 +176,6 @@ h1 {
   padding-bottom: 1rem;
   display: flex;
   gap: 1rem;
-  width: 100%;
 }
 .Restaurant__cards__card__link__text__info {
   display: flex;
@@ -192,8 +191,7 @@ h1 {
   position: absolute;
   display: block;
   height: auto;
-  width: 3rem;
-  right: 1rem;
+  right: 3rem;
 }
 .Restaurant__cards__card__link__text__like .fa-heart {
   position: absolute;
