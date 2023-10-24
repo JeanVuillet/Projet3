@@ -296,20 +296,28 @@ h1 {
 }
 .Menu__Course__plates__link__card {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+}
+.Menu__Course__plates__link__card__regular {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   border-radius: 1rem;
 }
-.Menu__Course__plates__link__card__plate {
+.Menu__Course__plates__link__card__regular__plate {
   padding-left: 1rem;
 }
-.Menu__Course__plates__link__card__price {
+.Menu__Course__plates__link__card__regular__price {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding-right: 1rem;
 }
+.Menu__Course__plates__link__card__cheked {
+  display: none;
+}
+
 .Localisation {
   font-size: medium;
   display: flex;
