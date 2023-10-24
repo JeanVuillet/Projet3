@@ -18,7 +18,7 @@
   @include MButton;
 }
 
-
+//ceci est le coeur
 
 
 @keyframes visible {
@@ -29,11 +29,12 @@
   transform: scale(1);
      }
 }
+
  .Restaurant__cards__card__link__text__like input[type="checkbox"],
      .Restaurant__cards__card__link__text__like .checked {
      animation: visible 1s;
      display: none;
-     color:red;
+    font-weight: x-large;
    
 
 transform-origin: bottom;
@@ -53,3 +54,4 @@ background-clip: text;
  {
      display: none;
  }
+

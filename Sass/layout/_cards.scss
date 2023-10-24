@@ -47,6 +47,7 @@
       }
 
       &__text {
+        position:relative;
   
         padding-left: 1rem;
         padding-top:1rem;
@@ -64,6 +65,33 @@
         &__info>*{
         margin:0rem;
                 }
+
+                &__like{
+                  height:0.001rem;
+                  width: 0.001rem;
+                  position :absolute;
+                  display: block;
+           
+                  height: auto;
+                  width: 3rem;
+                  right: 1rem;
+        
+                  .fa-heart{
+                    position: absolute;
+                  
+        
+                    font-size: x-large;
+                   
+        
+                  
+                  }
+                  .fa-solid{
+                    position: absolute;
+             
+                 
+                    color:white;
+            
+                  }
         
    
     
@@ -74,7 +102,7 @@
   }
 }
 
-
+}
 
    @media (min-width: 450px){
 
@@ -96,5 +124,5 @@
 
            
 
-
+  
  
