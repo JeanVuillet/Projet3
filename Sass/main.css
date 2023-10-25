@@ -300,13 +300,13 @@ h1 {
   width: 100%;
 }
 .Menu__Course__plates__div__card__regular {
-  width: 1970px;
+  width: 50rem;
   display: flex;
   justify-content: space-between;
   z-index: 2;
   background-color: white;
   border-radius: 1rem;
-  margin-right: 10rem;
+  margin-right: 2rem;
 }
 .Menu__Course__plates__div__card__regular__plate {
   display: flex;
@@ -335,18 +335,18 @@ h1 {
   padding-bottom: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular:hover {
-  margin-right: 20rem;
+  margin-right: 5.7rem;
   border-radius: 1rem 0rem 0rem 1rem;
 }
 .Menu__Course__plates__div__card__regular:hover + div {
-  translate: 80px;
+  translate: 3rem;
 }
 .Menu__Course__plates__div__card__checked {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 10rem;
+  right: 6rem;
   border-radius: 0rem 1rem 1rem 0rem;
   width: 59px;
   height: 69px;
