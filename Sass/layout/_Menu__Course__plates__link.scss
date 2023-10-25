@@ -1,5 +1,5 @@
 
-.Menu__Course__plates__link{
+.Menu__Course__plates__div{
    display: flex;
 
     margin-bottom: 1rem;
@@ -7,27 +7,40 @@
     margin-right:1rem;
 
 
-    &__card{
 
+
+    &__card{
+     height:69px;
      display:flex;
      width: 100%;
 
         &__regular{
 
-            width: 100%;
+            width:1970px;
+         
             display: flex;
             justify-content: space-between;
             z-index: 2;
       
             background-color: white;
-            border-radius: 1rem;
+            border-radius: 1rem ;
+            margin-right: 10rem ;
 
             &__plate{
-                padding-left: 1rem;
-                &__name{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
 
+                padding: 0.5rem;
+      
+                &__name{
+                padding:0rem;
+                margin:0rem;
                 }
                 &__detail{
+                    padding:0rem;
+                    margin:0rem;
+                    flex-wrap: nowrap;
                     
                 }
     
@@ -38,15 +51,19 @@
                 flex-direction: column;
             
                 justify-content: flex-end;
+        
                 padding-right:1rem;
                 &__p{
-
+                    padding:0rem;
+                    margin:0rem;
+                    padding-bottom:0.5rem;
                 }
               
             }
           
             &:hover{
-                width: 80%;
+              margin-right:20rem;
+                border-radius: 1rem 0rem 0rem 1rem;
             +div{
                translate:80px ;
           
@@ -62,15 +79,19 @@
         justify-content: center;
         align-items: center;
         position:absolute;
-        right:12rem;
+        right:10rem;
+    
 
-        width:10%;
-        height: 7%;
 
-        background-color:green;
+        border-radius: 0rem 1rem 1rem 0rem;
+
+        width:59px;
+        height: 69px;
+
+        background-color: #99E2D0;
         transition: translate  1s ease-in-out;
         color:white;
-        z-index:0 ;
+        z-index:1 ;
       
 
     }
