@@ -8,13 +8,16 @@
 
 
     &__card{
+
      display:flex;
      width: 100%;
 
         &__regular{
+
             width: 100%;
             display: flex;
             justify-content: space-between;
+            z-index: 2;
       
             background-color: white;
             border-radius: 1rem;
@@ -39,13 +42,44 @@
                 &__p{
 
                 }
+              
+            }
+          
+            &:hover{
+                width: 80%;
+            +div{
+               translate:80px ;
+          
+        
+
+            }
+            
             }
         }
-        &__cheked{
-            display:none;
-        }
-    
+
+    &__checked{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        right:12rem;
+
+        width:10%;
+        height: 7%;
+
+        background-color:green;
+        transition: translate  1s ease-in-out;
+        color:white;
+        z-index:0 ;
+      
+
     }
+       
+        
+    }
+ 
+
+    
 
 
 }

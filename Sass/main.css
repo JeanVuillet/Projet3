@@ -302,6 +302,7 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 2;
   background-color: white;
   border-radius: 1rem;
 }
@@ -314,8 +315,24 @@ h1 {
   justify-content: flex-end;
   padding-right: 1rem;
 }
-.Menu__Course__plates__link__card__cheked {
-  display: none;
+.Menu__Course__plates__link__card__regular:hover {
+  width: 80%;
+}
+.Menu__Course__plates__link__card__regular:hover + div {
+  translate: 80px;
+}
+.Menu__Course__plates__link__card__checked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12rem;
+  width: 10%;
+  height: 7%;
+  background-color: green;
+  transition: translate 1s ease-in-out;
+  color: white;
+  z-index: 0;
 }
 
 .Localisation {
