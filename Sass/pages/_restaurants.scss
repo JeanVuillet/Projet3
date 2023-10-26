@@ -58,6 +58,7 @@ align-items: center;
     height:20%;
 
     &__Course{
+        margin-right: 2rem;
 //Course *3(Entree, Plat, Dessert)
         &__title{
             position:relative;
@@ -77,7 +78,7 @@ align-items: center;
             }
         }
         &__plates{
-           
+           width: 100%;
             display:flex;
             flex-direction: column;
            

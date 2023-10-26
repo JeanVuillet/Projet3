@@ -1,4 +1,4 @@
-.page {
+.Page {
   font-family: "Roboto";
   font-style: sans-serif;
   font-weight: 500;
@@ -6,6 +6,9 @@
   text-decoration: none;
   background-color: #f7f7f7;
   width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: solid red;
 }
 
 h2 {
@@ -294,6 +297,7 @@ h1 {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  width: 100%;
 }
 .Menu__Course__plates__div__card {
   height: 69px;
@@ -315,7 +319,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 80%;
+  width: 70%;
   padding: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular__plate__name {
@@ -334,10 +338,13 @@ h1 {
   text-overflow: ellipsis;
 }
 .Menu__Course__plates__div__card__regular__price {
+  width: 10%;
+  min-width: 40px;
+  border: solid brown;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-right: 1rem;
+  align-items: center;
 }
 .Menu__Course__plates__div__card__regular__price__p {
   padding: 0rem;
@@ -345,11 +352,11 @@ h1 {
   padding-bottom: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular:hover {
-  position: relative;
   border-radius: 1rem 0rem 0rem 1rem;
+  width: calc(100% - 59px);
 }
 .Menu__Course__plates__div__card__regular:hover + div {
-  translate: 59px;
+  translate: 45px;
 }
 .Menu__Course__plates__div__card__checked {
   border: solid black;
@@ -360,7 +367,7 @@ h1 {
   right: 59px;
   border-radius: 0rem 1rem 1rem 0rem;
   width: 59px;
-  height: 69px;
+  height: 64px;
   background-color: #99E2D0;
   transition: translate 1s ease-in-out;
   color: white;
@@ -504,6 +511,9 @@ h1 {
 .Menu {
   height: 20%;
 }
+.Menu__Course {
+  margin-right: 2rem;
+}
 .Menu__Course__title {
   position: relative;
 }
@@ -517,6 +527,7 @@ h1 {
   bottom: -0.5rem;
 }
 .Menu__Course__plates {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }

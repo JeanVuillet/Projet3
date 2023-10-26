@@ -1,4 +1,4 @@
-.page{
+.Page{
     font-family: "Roboto" ;
    font-style: sans-serif;
     font-weight: 500;
@@ -6,6 +6,10 @@
     text-decoration:none;
     background-color:$backgroundColor;
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    border:solid red;
 
 }
 
