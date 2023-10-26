@@ -278,7 +278,7 @@ h1 {
   }
   .Footer__content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -322,7 +322,7 @@ h1 {
   }
   .Footer__content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
   }
 }
