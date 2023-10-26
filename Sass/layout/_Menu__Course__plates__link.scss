@@ -25,6 +25,9 @@ width:100%;
       
             background-color: white;
             border-radius: 1rem ;
+
+
+            
          
 
             &__plate{
@@ -37,6 +40,17 @@ width:100%;
 
 
                 padding: 0.5rem;
+
+
+                //
+
+
+    //             border: solid green;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+    // width: 70%;
+    // padding: 0.5rem;
       
                 &__name{
                 padding:0rem;
@@ -77,6 +91,7 @@ width:100%;
                 justify-content: flex-end;
                 align-items: center;
         
+            
               
                 &__p{
                     padding:0rem;
@@ -96,8 +111,8 @@ width:100%;
              
                 
                 +div{
-                translate: 45px ;
-
+                translate: 59px ;
+                width:59px;
                 }
             
             }
@@ -111,20 +126,21 @@ width:100%;
             display:flex;
             justify-content: center;
             align-items: center;
-            position:absolute;
+            position:relative;
            
         
             right:59px;
 
             border-radius: 0rem 1rem 1rem 0rem;
 
-            width:59px;
+           
             height: 64px;
 
             background-color: #99E2D0;
             transition: translate  1s ease-in-out;
             color:white;
             z-index:1 ;
+            width: 0;
         
 
         }

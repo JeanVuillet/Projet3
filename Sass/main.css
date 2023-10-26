@@ -265,6 +265,23 @@ h1 {
   padding-right: 1rem;
 }
 
+@media (min-width: 450px) {
+  .Footer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  .Footer__title {
+    margin-bottom: 0rem;
+  }
+  .Footer__content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
 .Footer {
   margin-top: 2rem;
   padding-top: 2rem;
@@ -292,6 +309,23 @@ h1 {
   padding-right: 1rem;
 }
 
+@media (min-width: 450px) {
+  .Footer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  .Footer__title {
+    margin-bottom: 0rem;
+  }
+  .Footer__content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
 .Menu__Course__plates__div {
   display: flex;
   margin-bottom: 1rem;
@@ -356,22 +390,23 @@ h1 {
   width: calc(100% - 59px);
 }
 .Menu__Course__plates__div__card__regular:hover + div {
-  translate: 45px;
+  translate: 59px;
+  width: 59px;
 }
 .Menu__Course__plates__div__card__checked {
   border: solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   right: 59px;
   border-radius: 0rem 1rem 1rem 0rem;
-  width: 59px;
   height: 64px;
   background-color: #99E2D0;
   transition: translate 1s ease-in-out;
   color: white;
   z-index: 1;
+  width: 0;
 }
 
 .Localisation {
@@ -536,6 +571,21 @@ h1 {
   z-index: 5;
 }
 
+@media (min-width: 450px) {
+  .Page {
+    background-color: white;
+  }
+  .MenuBoutonFooter {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .coucou {
   color: pink;
 }

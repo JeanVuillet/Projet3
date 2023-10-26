@@ -30,3 +30,23 @@
     padding-right: 1rem;
     }
 }
+
+@media (min-width:450px){
+    .Footer{
+        display: flex;
+        flex-direction: row-reverse;
+        gap:3rem;
+        align-items: center;
+padding-right: 2rem;
+        &__title{
+          
+            margin-bottom: 0rem;
+        }
+        &__content{
+            display:flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+    }
+
+}
