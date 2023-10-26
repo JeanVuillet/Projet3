@@ -5,6 +5,7 @@
   color: #353535;
   text-decoration: none;
   background-color: #f7f7f7;
+  width: 100%;
 }
 
 h2 {
@@ -298,30 +299,39 @@ h1 {
   height: 69px;
   display: flex;
   width: 100%;
+  border: solid red;
 }
 .Menu__Course__plates__div__card__regular {
-  width: 50rem;
+  border: solid blue;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 2;
   background-color: white;
   border-radius: 1rem;
-  margin-right: 2rem;
 }
 .Menu__Course__plates__div__card__regular__plate {
+  border: solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 80%;
   padding: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular__plate__name {
   padding: 0rem;
   margin: 0rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .Menu__Course__plates__div__card__regular__plate__detail {
+  border: solid orange;
   padding: 0rem;
   margin: 0rem;
-  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .Menu__Course__plates__div__card__regular__price {
   display: flex;
@@ -335,18 +345,19 @@ h1 {
   padding-bottom: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular:hover {
-  margin-right: 5.7rem;
+  position: relative;
   border-radius: 1rem 0rem 0rem 1rem;
 }
 .Menu__Course__plates__div__card__regular:hover + div {
-  translate: 3rem;
+  translate: 59px;
 }
 .Menu__Course__plates__div__card__checked {
+  border: solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 6rem;
+  right: 59px;
   border-radius: 0rem 1rem 1rem 0rem;
   width: 59px;
   height: 69px;

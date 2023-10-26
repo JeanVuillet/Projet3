@@ -13,10 +13,11 @@
      height:69px;
      display:flex;
      width: 100%;
+     border:solid red;
 
         &__regular{
-
-            width:50rem;
+            border:solid blue;
+            width:100%;
          
             display: flex;
             justify-content: space-between;
@@ -24,29 +25,47 @@
       
             background-color: white;
             border-radius: 1rem ;
-            margin-right: 2rem ;
+         
 
             &__plate{
+                border:solid green;
                 display:flex;
                 flex-direction: column;
                 justify-content: space-around;
+                width:80%;
+
 
                 padding: 0.5rem;
       
                 &__name{
                 padding:0rem;
                 margin:0rem;
+         
+            
+                text-overflow: ellipsis;
+                //petits points
+                white-space: nowrap;
+                //pas de retour a l a ligne inline
+                overflow: hidden;
+                //ce qui sort est caché
+                // text-overflow: ellipsis;
+                // white-space: nowrap;
+                // overflow: hidden;
                 }
+                
                 &__detail{
+                    border:solid orange;
                     padding:0rem;
                     margin:0rem;
-                    flex-wrap: nowrap;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                     
                 }
     
 
-            }
-            &__price{
+             }
+                &__price{
                 display: flex;
                 flex-direction: column;
             
@@ -59,48 +78,58 @@
                     padding-bottom:0.5rem;
                 }
               
-            }
-          
-            &:hover{
-              margin-right:5.7rem;
-                border-radius: 1rem 0rem 0rem 1rem;
-            +div{
-               translate:3rem ;
-          
+                    }
         
+            &:hover{
+                position:relative;
+      
+                border-radius: 1rem 0rem 0rem 1rem;
+           
 
-            }
+                &__plate__price{
+               
+                }
+                
+                +div{
+                translate:59px ;
+
+                }
             
             }
+         }   
+
+     
+        
+       
+        &__checked{
+            border:solid black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+           
+        
+            right:59px;
+
+            border-radius: 0rem 1rem 1rem 0rem;
+
+            width:59px;
+            height: 69px;
+
+            background-color: #99E2D0;
+            transition: translate  1s ease-in-out;
+            color:white;
+            z-index:1 ;
+        
+
         }
 
-    &__checked{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        position:absolute;
-        right:6rem;
-    
-
-
-        border-radius: 0rem 1rem 1rem 0rem;
-
-        width:59px;
-        height: 69px;
-
-        background-color: #99E2D0;
-        transition: translate  1s ease-in-out;
-        color:white;
-        z-index:1 ;
-      
-
     }
-       
+}   
         
-    }
+
  
 
     
 
 
-}
