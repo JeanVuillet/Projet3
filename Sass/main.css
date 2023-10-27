@@ -99,11 +99,6 @@ h1 {
   animation-duration: 5s;
 }
 
-.page {
-  animation-name: alo;
-  animation-duration: 5s;
-}
-
 .AnimationContainer {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -124,7 +119,7 @@ h1 {
   width: 100%;
   height: 0%;
   animation-name: coco;
-  animation-duration: 5s;
+  animation-duration: 3s;
   background-color: white;
   animation-direction: reverse;
 }
