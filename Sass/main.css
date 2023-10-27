@@ -8,7 +8,6 @@
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
-  border: solid red;
 }
 
 h2 {
@@ -381,10 +380,8 @@ h1 {
   height: 69px;
   display: flex;
   width: 100%;
-  border: solid red;
 }
 .Menu__Course__plates__div__card__regular {
-  border: solid blue;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -393,7 +390,6 @@ h1 {
   border-radius: 1rem;
 }
 .Menu__Course__plates__div__card__regular__plate {
-  border: solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -408,7 +404,6 @@ h1 {
   overflow: hidden;
 }
 .Menu__Course__plates__div__card__regular__plate__detail {
-  border: solid orange;
   padding: 0rem;
   margin: 0rem;
   white-space: nowrap;
@@ -418,7 +413,6 @@ h1 {
 .Menu__Course__plates__div__card__regular__price {
   width: 10%;
   min-width: 40px;
-  border: solid brown;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -438,14 +432,13 @@ h1 {
   width: 59px;
 }
 .Menu__Course__plates__div__card__checked {
-  border: solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   right: 59px;
   border-radius: 0rem 1rem 1rem 0rem;
-  height: 64px;
+  height: 69px;
   background-color: #99E2D0;
   transition: translate 1s ease-in-out;
   color: white;
