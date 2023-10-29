@@ -1,5 +1,3 @@
-
-
 @import "utils/variables.scss";
 @import "utils/mixines.scss";
 
@@ -7,26 +5,22 @@
 @import "base/resets.scss";
 @import "base/animation.scss";
 
-@import"components/buttons.scss";
+@import "components/buttons.scss";
 
-@import "layout/headerHomepage.scss";
+@import "layout/headerHomePage.scss";
 @import "layout/headerRestaurant.scss";
 @import "layout/cards.scss";
 @import "layout/Footer";
 @import "layout/Footer";
 @import "layout/Menu__Course__plates__link.scss";
 
+@import "Pages/homePage.scss";
 
-@import"pages/homepage.scss";
+@import "Pages/restaurants.scss";
 
-
-@import"pages/restaurants.scss";
-
-
-.coucou{
-
-    color:pink;
-     .fa-location-dot{
-    -webkit-text-fill-color:orange;
- }
+.coucou {
+  color: pink;
+  .fa-location-dot {
+    -webkit-text-fill-color: orange;
+  }
 }

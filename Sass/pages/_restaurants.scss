@@ -1,112 +1,104 @@
 //header__Restaurants :layout
 
-.Page{
-
+.Page {
 }
-.HeaderRestaurant{
-
+.HeaderRestaurant {
 }
-.RestoImage{
-   
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
+.RestoImage {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
 
-.MenuBoutonFooter{
-    position:relative;
-    margin-top:-4rem;
+.MenuBoutonFooter {
+  position: relative;
+  margin-top: -4rem;
 
- border-radius: 1rem 1rem 0rem 0rem;
-width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+  width: 100%;
 
-background-color: $backgroundColor;
-
-
+  background-color: $backgroundColor;
 }
 
-.Main{
-    display:flex;
-    flex-direction: column;
+.Main {
+  display: flex;
+  flex-direction: column;
 
-
-    //Menu__link:layout
+  //Menu__link:layout
 }
-.Name{
-display:flex;
-justify-content: center;
-align-items: center;
+.Name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-&__restaurant{
-   font-family: "Shrikand";
-    font-weight:bolder;
+  &__restaurant {
+    font-family: "Shrikand";
+    font-weight: bolder;
     font-style: italic;
-    display:flex;
+    display: flex;
     align-items: center;
-    position:relative;
+    position: relative;
     justify-content: center;
-}
-&__like{
-    .fa-heart{
-        position:relative;
-        padding-left: 1rem;
-      
+  }
+  &__like {
+    .fa-heart {
+      position: relative;
+      padding-left: 1rem;
     }
+  }
 }
-}
-.Menu{
-    height:20%;
+.Menu {
+  height: 20%;
 
-    &__Course{
-        margin-right: 2rem;
-//Course *3(Entree, Plat, Dessert)
-        &__title{
-            position:relative;
-            &::after{
-                background-color: $underLine;
-                // position:absolute;
-                // width: 1rem;
-                // height: 0.2rem;
-                // bottom:-0.5rem;
-                content: "";
-                position: absolute;
-                display: block;
-                width: 4rem;
-                height: 0.4rem;
-               
-                bottom: -0.5rem;
-            }
-        }
-        &__plates{
-           width: 100%;
-            display:flex;
-            flex-direction: column;
-           
-            // *3 ou*4  _plates__link  in layouts
-        }
-    }  
+  &__Course {
+    margin-right: 2rem;
+    //Course *3(Entree, Plat, Dessert)
+    &__title {
+      position: relative;
+      &::after {
+        background-color: $underLine;
+        // position:absolute;
+        // width: 1rem;
+        // height: 0.2rem;
+        // bottom:-0.5rem;
+        content: "";
+        position: absolute;
+        display: block;
+        width: 4rem;
+        height: 0.4rem;
+
+        bottom: -0.5rem;
+      }
+    }
+    &__plates {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      // *3 ou*4  _plates__link  in layouts
+    }
+  }
 }
-.Commander{
-   
-    z-index: 5;
-    //in components
+.Commander {
+  z-index: 5;
+  //in components
 }
-.Footer{
-    //in layouts
+.Footer {
+  //in layouts
 }
 
-@media (min-width:450px){
-    .Page{
-        background-color: white;
-    }
-.MenuBoutonFooter{
-width:80%;
-margin-left:auto;
-margin-right:auto;
-}
-.Menu{
-    width:80%;
-margin-left:auto;
-margin-right:auto;
-}
+@media (min-width: 450px) {
+  .Page {
+    background-color: white;
+  }
+  .MenuBoutonFooter {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -1,93 +1,77 @@
-.Reservez__button{
+.Reservez__button {
+  @include MButton;
 
-  
-@include MButton;
-    
-
-    z-index: 1;
-    position :relative;
-   
-
-   
+  z-index: 1;
+  position: relative;
 }
 
-
-
-
-.CommanderButton{
+.CommanderButton {
   @include MButton;
 }
 
-//ceci est le coeur de la page principale
-
+//ceci est le coeur de la Page principale
 
 @keyframes visible {
   0% {
-  transform: scale(0);
+    transform: scale(0);
   }
   80% {
-  transform: scale(1);
-     }
+    transform: scale(1);
+  }
 }
 
- .Restaurant__cards__card__link__text__like input[type="checkbox"],
-     .Restaurant__cards__card__link__text__like .checked {
-     animation: visible 1s;
-     display: none;
-    font-weight: x-large;
-   
+.Restaurant__cards__card__link__text__like input[type="checkbox"],
+.Restaurant__cards__card__link__text__like .checked {
+  animation: visible 1s;
+  display: none;
+  font-weight: x-large;
 
-transform-origin: bottom;
+  transform-origin: bottom;
 
-background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
- }
+  background: -webkit-linear-gradient(135deg, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
- .Restaurant__cards__card__link__text__like input[type="checkbox"]:checked ~ .checked
- {
-     display: inline-block;
- }
+.Restaurant__cards__card__link__text__like
+  input[type="checkbox"]:checked
+  ~ .checked {
+  display: inline-block;
+}
 
- .Restaurant__cards__card__link__text__like input[type="checkbox"]:checked ~ .unchecked
- {
-     display: none;
- }
+.Restaurant__cards__card__link__text__like
+  input[type="checkbox"]:checked
+  ~ .unchecked {
+  display: none;
+}
 
-//ceci est le coeur de la page restaurant
+//ceci est le coeur de la Page restaurant
 
 .Name__like input[type="checkbox"],
 .Name__like .checked {
-animation: visible 1s;
-display: none;
-font-weight: x-large;
+  animation: visible 1s;
+  display: none;
+  font-weight: x-large;
 
+  transform-origin: bottom;
 
-transform-origin: bottom;
-
-background: -webkit-linear-gradient(135deg, #9356DC, #FF79DA);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(135deg, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.Name__like input[type="checkbox"]:checked ~ .checked
-{
-display: inline-block;
+.Name__like input[type="checkbox"]:checked ~ .checked {
+  display: inline-block;
 }
 
-.Name__like input[type="checkbox"]:checked ~ .unchecked
-{
-display: none;
+.Name__like input[type="checkbox"]:checked ~ .unchecked {
+  display: none;
 }
 
-.fa-heart{
+.fa-heart {
   position: absolute;
 
-
   font-size: x-large;
- 
-
-
 }

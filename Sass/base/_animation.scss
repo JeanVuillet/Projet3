@@ -1,125 +1,116 @@
-
-
-
 @keyframes appear {
-    0% {
-      transform: scale(0);
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animation1 {
+  animation: appear 1s;
+}
+.animation2 {
+  animation: appear 1.5s;
+}
+.animation3 {
+  animation: appear 2s;
+}
+.animation4 {
+  animation: appear 2.5s;
+}
+.animation5 {
+  animation: appear 3s;
+}
+.animation6 {
+  animation: appear 3.5s;
+}
+.animation7 {
+  animation: appear 4s;
+}
+.animation8 {
+  animation: appear 4.5s;
+}
+.animation9 {
+  animation: appear 5s;
+}
+
+@function grow() {
+  $a: $a + 0.5;
+  @return $a;
+}
+
+@keyframes coco {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes noanim {
+  0% {
+    opacity: 100%;
   }
 
-.animation1{
+  99% {
+    opacity: 100%;
+  }
 
-    animation:appear 1s ;
+  100% {
+  }
 }
-.animation2{
-   
-    animation:appear 1.5s ;
-}
-.animation3{
+@keyframes alo {
+  0% {
+    z-index: 25;
+  }
 
-    animation:appear 2s ;
+  99% {
+    z-index: 25;
+  }
 }
-.animation4{
+.AnimationPage {
+  width: 100%;
+  height: 80%;
+  position: absolute;
 
-    animation:appear 2.5s ;
+  background-color: white;
+
+  animation-name: noanim;
+  animation-duration: 3s;
 }
-.animation5{
-   
-    animation:appear 3s ;
+.Page {
 }
-.animation6{
-
-    animation:appear 3.5s ;
+.AnimationContainer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-left: solid black 0.2rem;
+  border-right: solid black 0.2rem;
+  border-bottom: solid black 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  height: 20rem;
+  background-color: #9356dc;
+  border-radius: 0rem 0rem 1rem 1rem;
 }
-.animation7{
+.animation {
+  padding-top: 2rem;
 
-    animation:appear 4s ;
-}
-.animation8{
-    
-    animation:appear 4.5s ;
-}
-.animation9{
-   
-    animation:appear 5s ;
-}
+  margin-left: auto;
+  width: 100%;
+  height: 0%;
+  animation-name: coco;
+  animation-duration: 3s;
+  background-color: white;
 
-@function grow (){
-    $a:$a+0.5;
-    @return $a;
-}
-
-@keyframes coco{
-    0%{height:0%}
-    100%{height: 100%;
-    }
-}
-@keyframes noanim{
-    0%{ opacity: 100%;}
-
-    99%{opacity:100%;}
-    
-    100%{
-    
-    }
-}
-@keyframes alo{
-  0%{
-    z-index:25;}
-
-99%{   z-index:25;}
-
-
-
-}
-.AnimationPage{
-    width:100%;
-    height:80%;
-    position:absolute;
-  
-    background-color: white;
-  
-     animation-name:noanim ;
-    animation-duration: 3s;
-}
-.page{
-
-
-}
-.AnimationContainer{
-  
-    margin-top:5rem;
-    margin-bottom:5rem; 
-         border-left:solid  black 0.2rem;
-         border-right:solid black 0.2rem;
-         border-bottom:solid black 0.5rem;
-    margin-left:auto;
-    margin-right: auto;
-    width: 10rem;
-    height:20rem;
-background-color: #9356DC;
-border-radius:0rem 0rem 1rem 1rem;
-}
-.animation{
-    padding-top: 2rem;
-
-    margin-left:auto;
-     width:100%;
-     height:0%;
-     animation-name:  coco ;
-     animation-duration:3s;
-     background-color:white;
-
-     animation-direction:reverse;
+  animation-direction: reverse;
 }
 
-.AnimationPage{
-    background-color: white;
-position:absolute;
-z-index:-3;
-animation-name:alo;
-height:88rem;
+.AnimationPage {
+  background-color: white;
+  position: absolute;
+  z-index: -3;
+  animation-name: alo;
+  height: 88rem;
 }

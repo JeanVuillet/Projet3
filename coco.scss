@@ -1,14 +1,12 @@
-
-
 @import "./base/typography";
 @import "./base/resets";
-@import"./components/buttons.scss";
+@import "./components/buttons.scss";
 
-@import "./layout/headerHomepage";
+@import "./layout/headerHomePage";
 @import "./layout/headerRestaurant";
 @import "./layout/cards";
-@import"./layout/fonctionnement.scss";
-@import"./layout/reservez.scss";
+@import "./layout/fonctionnement.scss";
+@import "./layout/reservez.scss";
 
-@import"./pages/homepage.scss";
-@import"./pages/restaurants.scss";
+@import "./Pages/homePage.scss";
+@import "./Pages/restaurants.scss";

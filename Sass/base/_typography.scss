@@ -1,28 +1,28 @@
-.Page{
-    font-family: "Roboto" ;
-   font-style: sans-serif;
-    font-weight: 500;
-    color:$DefaltColor;
-    text-decoration:none;
-    background-color:$backgroundColor;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-    
+.Page {
+  font-family: "Roboto";
+  font-style: sans-serif;
+  font-weight: bold;
+  color: $DefaltColor;
+  text-decoration: none;
+  background-color: $backgroundColor;
+  width: 100%;
+}
+body {
+  margin: 0rem;
 
 }
 
-h2{
-
-    color:#000;
-    font-size: 18px;
-    color:$DefaltColor;
+h2 {
+  color: #000;
+  font-size: 18px;
+  color: $DefaltColor;
 }
 
-h1{
-    font-size: 24px;
-    font-style: bold;
-    color:#000;
+h1 {
+  font-size: 24px;
+
+  color: #000;
+  font-weight: bold !important;
 
 }
+
