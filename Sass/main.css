@@ -253,6 +253,23 @@ h1 {
   justify-content: center;
 }
 
+@media (min-width: 750px) {
+  .Page {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .line {
+    display: flex;
+    padding-left: 5rem;
+  }
+  .Page > * {
+    padding: 0rem;
+  }
+  .HeaderHomepage {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 .HeaderRestaurant {
   display: flex;
   margin-left: 2rem;
@@ -341,18 +358,18 @@ h1 {
   color: white;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 750px) {
   .Restaurant__cards {
-    display: flex;
+    -moz-column-gap: 4%;
+         column-gap: 4%;
     flex-wrap: wrap;
-    justify-content: center;
   }
   .Restaurant__cards__card {
-    width: 40%;
-    margin: 2rem;
+    width: 48%;
   }
 }
 .Footer {
+  font-weight: 500;
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -379,7 +396,7 @@ h1 {
   padding-right: 1rem;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 750px) {
   .Footer {
     display: flex;
     flex-direction: row-reverse;
@@ -397,6 +414,7 @@ h1 {
   }
 }
 .Footer {
+  font-weight: 500;
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -423,7 +441,7 @@ h1 {
   padding-right: 1rem;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 750px) {
   .Footer {
     display: flex;
     flex-direction: row-reverse;
@@ -519,6 +537,7 @@ h1 {
 
 .Localisation {
   font-size: medium;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   background-color: #EAEAEA;
@@ -599,14 +618,13 @@ h1 {
   flex-direction: column;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 1024px) {
   .Fonctionnement {
     padding-left: 5rem;
     padding-right: 5rem;
   }
   .Fonctionnement__cards {
     flex-direction: row;
-    justify-content: center;
   }
   .Restaurant {
     padding-left: 5rem;
@@ -680,7 +698,7 @@ h1 {
   z-index: 5;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 750px) {
   .Page {
     background-color: white;
   }

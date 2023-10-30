@@ -102,17 +102,17 @@
 
 }
 
-   @media (min-width: 450px){
+   @media (min-width: 750px){
 
     .Restaurant__cards  {
 
      
- display: flex;
+      column-gap:4%;
  flex-wrap: wrap;
- justify-content: center;
+
    &__card{
-    width: 40%;
-    margin:2rem;
+    width: 48%;
+
    }
 
     }

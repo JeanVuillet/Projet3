@@ -1,4 +1,5 @@
 .Footer{
+    font-weight:500;
     margin-top: 2rem;
     padding-top:2rem;
     padding-bottom:2rem;
@@ -31,8 +32,9 @@
     }
 }
 
-@media (min-width:450px){
+@media (min-width:750px){
     .Footer{
+       
         display: flex;
         flex-direction: row-reverse;
         gap:3rem;

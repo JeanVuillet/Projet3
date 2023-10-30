@@ -4,6 +4,7 @@
 
 .Localisation{
     font-size: medium;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     background-color: #EAEAEA;
@@ -118,8 +119,13 @@
 .Footer{
     //Footer: layouts
 }
+@media(min-width:750){
 
-@media (min-width:450px )  {
+    
+    
+
+}
+@media (min-width:1024px )  {
   
 
     .Fonctionnement{
@@ -128,7 +134,7 @@
         
         &__cards{
             flex-direction: row;
-            justify-content: center;
+           
 
         }
     }
@@ -143,3 +149,5 @@
     }
     
 }
+
+
