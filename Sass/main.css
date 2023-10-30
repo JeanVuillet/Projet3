@@ -245,7 +245,7 @@ h1 {
   font-size: x-large;
 }
 
-.HeaderHomePage {
+.HeaderHomepage {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -321,6 +321,9 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+.Restaurant__cards__card__link__text__info__location {
+  font-weight: 300;
 }
 .Restaurant__cards__card__link__text__info > * {
   margin: 0rem;
@@ -567,7 +570,6 @@ h1 {
   align-items: center;
   border-radius: 1rem;
   font-size: medium;
-  font-weight: 500;
   color: #1f1f1f;
 }
 .Fonctionnement__cards__card__number {
@@ -590,6 +592,8 @@ h1 {
 }
 
 .Restaurant {
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;

@@ -60,7 +60,13 @@
         &__info{
           display:flex;
           flex-direction: column;
-          gap:0.5rem;
+          gap:0.5rem; 
+
+          &__location{
+            font-weight: 300;
+          }
+
+
         }
         &__info>*{
         margin:0rem;

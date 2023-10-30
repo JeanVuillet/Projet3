@@ -74,7 +74,7 @@
                 border-radius:  1rem;
 
                 font-size: medium;
-                font-weight: 500;
+            
                 color: #1f1f1f;
     
                 &__number{
@@ -104,7 +104,10 @@
     
     }
     .Restaurant{
+        padding-left:1rem;
+        padding-right:1rem;
       background-color: $backgroundColor;
+
    
         display: flex;
         flex-direction: column;
