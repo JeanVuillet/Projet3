@@ -135,7 +135,7 @@ h1 {
 }
 
 .Reservez__button {
-  background-color: #FF79DA;
+  background: linear-gradient(350deg, #9356dc, #ff79da);
   color: #ffffff;
   width: 218px;
   height: 50px;
@@ -165,7 +165,7 @@ h1 {
 }
 
 .CommanderButton {
-  background-color: #FF79DA;
+  background: linear-gradient(350deg, #9356dc, #ff79da);
   color: #ffffff;
   width: 218px;
   height: 50px;
