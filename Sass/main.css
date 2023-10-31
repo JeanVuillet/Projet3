@@ -490,9 +490,6 @@ h1 {
 .Menu__Course__plates__div__card__regular__plate__name {
   padding: 0rem;
   margin: 0rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .Menu__Course__plates__div__card__regular__plate__detail {
   padding: 0rem;
