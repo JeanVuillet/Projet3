@@ -621,11 +621,6 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.Menu__Course__plates__div__card__regular__plate__detaliPrice .Menu__Course__plates__div__card__regular__plate__detaliPrice__detail {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
 .Menu__Course__plates__div__card__regular__plate__detaliPrice .Menu__Course__plates__div__card__regular__plate__detaliPrice__price {
   margin-right: 0.5rem;
 }
@@ -704,9 +699,6 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .Commander {
