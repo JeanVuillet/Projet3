@@ -477,22 +477,19 @@ h1 {
   z-index: 2;
   background-color: white;
   border-radius: 1rem;
-  flex-direction: column;
-  justify-content: space-around;
 }
 .Menu__Course__plates__div__card__regular__plate {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 0.5rem;
 }
 .Menu__Course__plates__div__card__regular__plate__name {
   padding: 0rem;
   margin: 0rem;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .Menu__Course__plates__div__card__regular__plate__detail {
   padding: 0rem;
@@ -707,6 +704,9 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Commander {
