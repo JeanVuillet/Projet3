@@ -119,9 +119,24 @@
 .Footer{
     //Footer: layouts
 }
+
+
+.Menu__Course__plates__div__card__regular__plate__detaliPrice{
+ display:flex;
+ justify-content: space-between;
+ .Menu__Course__plates__div__card__regular__plate__detaliPrice__detail{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ .Menu__Course__plates__div__card__regular__plate__detaliPrice__price{
+    margin-right: 0.5rem;
+ }
+
+}
 @media(min-width:750){
 
-    
+
     
 
 }

@@ -477,6 +477,8 @@ h1 {
   z-index: 2;
   background-color: white;
   border-radius: 1rem;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .Menu__Course__plates__div__card__regular__plate {
   display: flex;
@@ -616,6 +618,19 @@ h1 {
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
+}
+
+.Menu__Course__plates__div__card__regular__plate__detaliPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.Menu__Course__plates__div__card__regular__plate__detaliPrice .Menu__Course__plates__div__card__regular__plate__detaliPrice__detail {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.Menu__Course__plates__div__card__regular__plate__detaliPrice .Menu__Course__plates__div__card__regular__plate__detaliPrice__price {
+  margin-right: 0.5rem;
 }
 
 @media (min-width: 1024px) {
