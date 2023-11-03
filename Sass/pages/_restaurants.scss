@@ -54,6 +54,7 @@
     margin-right: 2rem;
     //Course *3(Entree, Plat, Dessert)
     &__title {
+      font-weight: 300;
       position: relative;
       &::after {
         background-color: $underLine;
