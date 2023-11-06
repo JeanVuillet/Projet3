@@ -244,26 +244,28 @@ h1 {
 }
 
 .Reservez__button {
+  border: none;
   background: linear-gradient(350deg, #9356dc, #ff79da);
   color: #ffffff;
   width: 218px;
   height: 50px;
   border-radius: 2.8rem;
   font-size: medium;
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 5px grey;
   align-self: center;
   z-index: 1;
   position: relative;
 }
 
 .CommanderButton {
+  border: none;
   background: linear-gradient(350deg, #9356dc, #ff79da);
   color: #ffffff;
   width: 218px;
   height: 50px;
   border-radius: 2.8rem;
   font-size: medium;
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0px 0px 5px grey;
   align-self: center;
 }
 .CommanderButton:hover {
