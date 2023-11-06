@@ -653,6 +653,9 @@ h1 {
   gap: 1rem;
   padding-bottom: 2rem;
 }
+.Fonctionnement__title {
+  padding-left: 1rem;
+}
 .Fonctionnement__cards {
   display: flex;
   flex-direction: column;
@@ -775,6 +778,7 @@ h1 {
 .Menu__Course__title {
   font-weight: 300;
   position: relative;
+  margin-left: 1rem;
 }
 .Menu__Course__title::after {
   background-color: #99e2d0;
