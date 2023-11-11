@@ -40,26 +40,10 @@
   @return $a;
 }
 
-@keyframes coco {
-  0% {
-    height: 0%;
-  }
-  100% {
-    height: 100%;
-  }
-}
-@keyframes noanim {
-  0% {
-    opacity: 100%;
-  }
 
-  99% {
-    opacity: 100%;
-  }
 
-  100% {
-  }
-}
+
+
 
 .AnimationPage {
   width: 100%;
@@ -77,19 +61,6 @@
 
 
 
-.animation {
-
-
-
-  width: 100%;
-  height: 0%;
-  animation-name: coco;
-  animation-duration: 3s;
-  background-color: white;
-
-  animation-direction: reverse;
-
-}
 // Animation Page
 @keyframes balls {
   0% {
@@ -97,9 +68,7 @@
  z-index: 40;
   }
 
-  80% {
-  opacity:90%;
-  }
+
   
 }
 
