@@ -10,7 +10,7 @@
   object-fit: cover;
 }
 
-.MenuBoutonFooter {
+.MenuBouton {
   position: relative;
   margin-top: -4rem;
 
@@ -56,7 +56,7 @@
     &__title {
       font-weight: 300;
       position: relative;
-      margin-left:1rem;
+      margin-left: 1rem;
       &::after {
         background-color: $Green;
 
@@ -90,7 +90,7 @@
   .Page {
     background-color: white;
   }
-  .MenuBoutonFooter {
+  .MenuBouton {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
