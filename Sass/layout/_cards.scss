@@ -25,13 +25,11 @@
 
 
       &__nouveau{
-     
         position:absolute;
         right: 1rem;
         top:1rem;      
       background-color:$Green;
       color:#008766;
-  
       width:5rem;
       line-height: 1.5rem;
       font-size: 14px;
@@ -48,11 +46,9 @@
 
       &__text {
         position:relative;
-
         padding-left: 1rem;
         padding-top:1rem;
         padding-bottom:1rem;
-
         display:flex;
         gap: 1rem;
        
@@ -76,23 +72,16 @@
                   height:0.001rem;
                   width: 0.001rem;
                   position :absolute;
-                  display: block;
-           
-                  height: auto;
-              
+                  display: block;          
+                  height: auto;             
                   right: 3rem;
         
              
                   .fa-solid{
-                    position: absolute;
-             
-                 
+                    position: absolute;            
                     color:white;
             
                   }
-        
-   
-    
       } 
     }
    
@@ -105,14 +94,11 @@
    @media (min-width: 750px){
 
     .Restaurant__cards  {
-
-     
-      column-gap:4%;
- flex-wrap: wrap;
+     column-gap:4%;
+     flex-wrap: wrap;
 
    &__card{
     width: 48%;
-
    }
 
     }

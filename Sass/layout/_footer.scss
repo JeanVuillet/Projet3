@@ -1,54 +1,46 @@
-.Footer{
-    font-weight:500;
-    margin-top: 2rem;
-    padding-top:2rem;
-    padding-bottom:2rem;
-    padding-left:2rem;
-    background-color: $DefaltColor;
-    color:white;
-    &__title{
-        margin-block-start:0rem;
-        color: white;
-        font-family: 'Shrikhand';
-        font-size: 22px;
+.Footer {
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: $DefaltColor;
+  color: white;
+  &__title {
+    margin-block-start: 0rem;
+    color: white;
+    font-family: "Shrikhand";
+    font-size: 22px;
+    text-align: justify;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  &__content > p {
+    margin-block: 0rem;
+  }
 
-  
-        text-align: justify;
-        
-        
-    }
-    &__content{
-     
-        display:flex;
-        flex-direction: column;
-        gap:0.3rem;
-    }
-    &__content>p{
-        margin-block:0rem;
-    }
-
-    .fa-solid{
+  .fa-solid {
     padding-right: 1rem;
-    }
+  }
 }
 
-@media (min-width:750px){
-    .Footer{
-       
-        display: flex;
-        flex-direction: row-reverse;
-        gap:3rem;
-        align-items: center;
-padding-right: 2rem;
-        &__title{
-          
-            margin-bottom: 0rem;
-        }
-        &__content{
-            display:flex;
-            flex-direction: row;
-            align-items: center;
-        }
+@media (min-width: 750px) {
+  .Footer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    align-items: center;
+    padding-right: 2rem;
+    &__title {
+      margin-bottom: 0rem;
     }
-
+    &__content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
 }

@@ -1,22 +1,17 @@
-
-
 .Reservez__button {
   @include MButton;
 
   z-index: 1;
   position: relative;
-
- 
 }
 
 .CommanderButton {
   @include MButton;
 
-  &:hover{
+  &:hover {
     @include HoverMButton;
   }
 }
-
 
 //ceci est le coeur de la Page principale
 
@@ -33,7 +28,6 @@
 .Restaurant__cards__card__link__text__like .checked {
   animation: visible 1s;
   display: none;
-
 
   transform-origin: bottom;
 
@@ -61,10 +55,7 @@
 .Name__like .checked {
   animation: visible 1s;
   display: none;
-
-
   transform-origin: bottom;
-
   background: -webkit-linear-gradient(135deg, #9356dc, #ff79da);
   -webkit-background-clip: text;
   background-clip: text;
@@ -81,6 +72,5 @@
 
 .fa-heart {
   position: absolute;
-
   font-size: x-large;
 }

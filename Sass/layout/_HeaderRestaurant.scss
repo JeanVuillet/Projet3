@@ -1,21 +1,19 @@
-.HeaderRestaurant{
- 
-    display: flex;
-    margin-left:2rem;
-    margin-right:2rem;
+.HeaderRestaurant {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
 
-   &__icone{
-   justify-content: flex-start;
-   color:black;
-   }
-   &__image{
+  &__icone {
+    justify-content: flex-start;
+    color: black;
+  }
+  &__image {
     margin-right: auto;
     margin-left: auto;
-   }
-   
+  }
 }
-.fa-location-dot{
-    color:black;
-    background-color: transparent;
-    -webkit-text-fill-color:black;
+.fa-location-dot {
+  color: black;
+  background-color: transparent;
+  -webkit-text-fill-color: black;
 }

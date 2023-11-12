@@ -1,155 +1,91 @@
+.Menu__Course__plates__div {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
 
-.Menu__Course__plates__div{
-   display: flex;
+  &__card {
+    position: relative;
+    height: 69px;
+    display: flex;
+    width: 100%;
 
-    margin-bottom: 1rem;
-    margin-left:1rem;
-    margin-right:1rem;
+    &__regular {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2;
+      background-color: white;
+      border-radius: 1rem;
 
-width:100%;
+      &__plate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0.5rem;
 
-
-    &__card{
-        position:relative;
-     height:69px;
-     display:flex;
-     width: 100%;
-
-
-        &__regular{
-          
-            width:100%;
-         
-            display: flex;
-            justify-content: space-between;
-            z-index: 2;
-      
-            background-color: white;
-            border-radius: 1rem ;
-
-
-        
-         
-
-            &__plate{
-
-             
-                display:flex;
-                flex-direction: column;
-                justify-content: space-around;
-          
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-
-                padding: 0.5rem;
-
-
-                //
-
-
-    //             border: solid green;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
-    // width: 70%;
-    // padding: 0.5rem;
-      
-                &__name{
-                padding:0rem;
-                margin:0rem;
-         
-            
-         
-                }
-                
-                &__detail{
-                    font-weight: 300;
-                    padding:0rem;
-                    margin:0rem;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    
-                }
-    
-
-             }
-                &__price{
-                 font-weight: bold;
-                    width: 10%;
-                    min-width: 40px;
-              
-                display: flex;
-                flex-direction: column;
-            
-                justify-content: flex-end;
-                align-items: center;
-        
-            
-              
-                &__p{
-                    padding:0rem;
-                    margin:0rem;
-                    padding-bottom:0.5rem;
-                    
-                }
-              
-                    }
-        
-            &:hover{
-       
-      
-                border-radius: 1rem 0rem 0rem 1rem;
-              animation:reduce 1s;
-              width:calc(100% - 59px);
-
-             
-                
-           
-            
-            }
-         }   
-
-     @keyframes reduce {
-        from{
-            width:100%;
-        }
-        to{width:calc(100% - 59px);}
-        
-     }
-        
-       
-        &__checked{
-      
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            position:absolute;
-           
-        
-            right:0px;
-
-            border-radius: 0rem 1rem 1rem 0rem;
-
-           
-            height: 69px;
-
-            background-color: #99E2D0;
-          
-            color:white;
-            z-index:1 ;
-         width: 59px;
-        
-
+        &__name {
+          padding: 0rem;
+          margin: 0rem;
         }
 
+        &__detail {
+          font-weight: 300;
+          padding: 0rem;
+          margin: 0rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      &__price {
+        font-weight: bold;
+        width: 10%;
+        min-width: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+        &__p {
+          padding: 0rem;
+          margin: 0rem;
+          padding-bottom: 0.5rem;
+        }
+      }
+
+      &:hover {
+        border-radius: 1rem 0rem 0rem 1rem;
+        animation: reduce 1s;
+        width: calc(100% - 59px);
+      }
     }
-}   
-        
 
- 
+    @keyframes reduce {
+      from {
+        width: 100%;
+      }
+      to {
+        width: calc(100% - 59px);
+      }
+    }
 
-    
-
-
+    &__checked {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 0px;
+      border-radius: 0rem 1rem 1rem 0rem;
+      height: 69px;
+      background-color: #99e2d0;
+      color: white;
+      z-index: 1;
+      width: 59px;
+    }
+  }
+}

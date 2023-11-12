@@ -1,173 +1,135 @@
-
 //header main :  layout//
 
-
-.Localisation{
-    font-size: medium;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    background-color: #EAEAEA;
+.Localisation {
+  font-size: medium;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
 }
 
-.Reservez{
-    background-color:$backgroundColor;
-    padding:2rem 0rem 2rem 0rem;
-   
-    text-align: center;
-   
+.Reservez {
+  background-color: $backgroundColor;
+  padding: 2rem 0rem 2rem 0rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    margin: 0rem;
+    padding: 0rem 4rem 0rem 4rem;
+    justify-self: center;
+  }
+  &__p {
+    padding: 0rem 2rem 0rem 2rem;
+    color: $Black;
+    font-weight: 10;
+  }
+  &__button {
+    // voir buttons component
+  }
+}
+
+.Fonctionnement {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  &__title {
+    padding-left: 1rem;
+  }
+
+  &__cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-   
-    
-        &__title{
-        
-            margin:0rem;
-            padding: 0rem 4rem 0rem 4rem;
-            justify-self:center;
-        
-           
-        }
-        &__p{
-            padding: 0rem 2rem 0rem 2rem;
-            color: $Black;
-            font-weight: 10;
-        }
-        &__button{
-            
-            
-// voir buttons component
-        }
-    
-}
+    justify-content: space-between;
+    gap: 1rem;
 
-    .Fonctionnement {
-        
-        background-color: white;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap:1rem;
-        padding-bottom: 2rem;
-        &__title{
-            padding-left: 1rem;
-        }
-    
-        &__cards{
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            gap:1rem;
-           
-          
-    
-            &__card{
-                box-shadow: 0px  5px 5px  #888888;
+    &__card {
+      box-shadow: 0px 5px 5px #888888;
 
-                width:322.5px;
-                height:72px;
-                background-color: #F6F6F6;
-      
-                display:flex;
-                gap:1rem;
-                padding-right: 2rem;
-                justify-content: flex-start;
-                align-items: center;
-                border-radius:  1rem;
+      width: 322.5px;
+      height: 72px;
+      background-color: #f6f6f6;
+      display: flex;
+      gap: 1rem;
+      padding-right: 2rem;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 1rem;
+      font-size: medium;
+      color: $Black;
 
-                font-size: medium;
-            
-                color: $Black;
-    
-                &__number{
-                    position: relative;
-                    left:-10px;
-                    color:white;
-                    background-color:$Violet;
-                    border-radius: 50%;
-                    width: 1.5rem;
-                    height:1.5rem;
-                    display:flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                &__icon{
-                    color:#7E7E7E;
-    
-                }
-                .fa-store{
-             
-                    color:#9356DC;
-                }
-            }
-        
-        }
-       
-    
-    }
-    .Restaurant{
-        padding-left:1rem;
-        padding-right:1rem;
-      background-color: $backgroundColor;
-
-   
+      &__number {
+        position: relative;
+        left: -10px;
+        color: white;
+        background-color: $Violet;
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
         display: flex;
-        flex-direction: column;
-
-        //&__cards: layout
+        justify-content: center;
+        align-items: center;
+      }
+      &__icon {
+        color: #7e7e7e;
+      }
+      .fa-store {
+        color: #9356dc;
+      }
     }
+  }
+}
+.Restaurant {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: $backgroundColor;
+  display: flex;
+  flex-direction: column;
 
-.Footer{
-    //Footer: layouts
+  //&__cards: layout
 }
 
+.Footer {
+  //Footer: layouts
+}
 
-.Menu__Course__plates__div__card__regular__plate__detaliPrice{
- display:flex;
- justify-content: space-between;
+.Menu__Course__plates__div__card__regular__plate__detaliPrice {
+  display: flex;
+  justify-content: space-between;
 
- .Menu__Course__plates__div__card__regular__plate__detaliPrice__price{
+  .Menu__Course__plates__div__card__regular__plate__detaliPrice__price {
     margin-right: 0.5rem;
- }
-
+  }
 }
 
-.Reservez__button:hover{
-@include HoverMButton;
-   
+.Reservez__button:hover {
+  @include HoverMButton;
 }
-@media(min-width:750){
-
-
-    
-
+@media (min-width: 750) {
 }
-@media (min-width:1024px )  {
-  
+@media (min-width: 1024px) {
+  .Fonctionnement {
+    padding-left: 5rem;
+    padding-right: 5rem;
 
-    .Fonctionnement{
-        padding-left:5rem;
-        padding-right: 5rem;
-        
-        &__cards{
-            flex-direction: row;
-           
-
-        }
+    &__cards {
+      flex-direction: row;
     }
+  }
 
-    .Restaurant{
-        padding-left:5rem;
-        padding-right: 5rem;
+  .Restaurant {
+    padding-left: 5rem;
+    padding-right: 5rem;
 
-        &__cards{
-            //layouts
-        }
+    &__cards {
+      //layouts
     }
-    
+  }
 }
-
-

@@ -1,24 +1,16 @@
-@mixin MButton{
-  border:none;
-    background:$buttonColor;
-    color: #ffffff;
-    width:218px;
-    height:50px;
-    border-radius: 2.8rem;
-    font-size: medium;
-    box-shadow: 0px 0px   5px  grey;
-    align-self: center;
-    
-
-
-
-
+@mixin MButton {
+  border: none;
+  background: $buttonColor;
+  color: #ffffff;
+  width: 218px;
+  height: 50px;
+  border-radius: 2.8rem;
+  font-size: medium;
+  box-shadow: 0px 0px 5px grey;
+  align-self: center;
 }
 
-@mixin HoverMButton{
-   
-  background:$buttonHoverColor;
-  box-shadow: 0px 0px   10px  grey;
- 
-  
- }
+@mixin HoverMButton {
+  background: $buttonHoverColor;
+  box-shadow: 0px 0px 10px grey;
+}

@@ -6,19 +6,16 @@
   justify-content: center;
 }
 
-@media (min-width: 750px){ 
-
-  .line{display:flex;
-    padding-left:5rem;
+@media (min-width: 750px) {
+  .line {
+    display: flex;
+    padding-left: 5rem;
   }
-  .Page>*{
-    padding:0rem;
+  .Page > * {
+    padding: 0rem;
   }
-  .HeaderHomepage{
+  .HeaderHomepage {
     padding-top: 1rem;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
   }
-
- 
-
 }
