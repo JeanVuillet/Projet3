@@ -197,7 +197,6 @@ h1 {
 .Restaurant__cards__card__link__text__like .checked {
   animation: visible 1s;
   display: none;
-  font-weight: x-large;
   transform-origin: bottom;
   background: -webkit-linear-gradient(135deg, #9356dc, #ff79da);
   -webkit-background-clip: text;
@@ -217,7 +216,6 @@ h1 {
 .Name__like .checked {
   animation: visible 1s;
   display: none;
-  font-weight: x-large;
   transform-origin: bottom;
   background: -webkit-linear-gradient(135deg, #9356dc, #ff79da);
   -webkit-background-clip: text;
