@@ -32,7 +32,7 @@
         }
         &__p{
             padding: 0rem 2rem 0rem 2rem;
-            color: #353535;
+            color: $Black;
             font-weight: 10;
         }
         &__button{
@@ -79,13 +79,13 @@
 
                 font-size: medium;
             
-                color: #1f1f1f;
+                color: $Black;
     
                 &__number{
                     position: relative;
                     left:-10px;
                     color:white;
-                    background-color:#9356DC;
+                    background-color:$Violet;
                     border-radius: 50%;
                     width: 1.5rem;
                     height:1.5rem;
